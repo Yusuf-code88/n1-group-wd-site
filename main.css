@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes box {
+    0% {left: 0; top: 0;}
+    25% {left: 300px; top: 0;}
+    50% {left: 300px; top: 600px;}
+    75% {top: 600px; left: 0;}
+    100% {left: 0; top: 0;}
+}
+
+div {
+    width: 200px;
+    height: 200px;
+   
+}
+
+.father-div {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box2 {
+    margin-left: -200px;
+    animation-name: box2;
+    position: relative;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    background-color: rebeccapurple;
+    animation-iteration-count: infinite;
+}
+
+.box3 {
+    margin-left: -200px;
+    animation-name: box3;
+    position: relative;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+    background-color: red;
+    animation-iteration-count: infinite;
+
+}
+
+.box4 {
+    margin-left: -200px;
+    animation-name: box4;
+    position: relative;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    background-color: gray;
+    animation-iteration-count: infinite;
+
+}
+
+.box1 {
+    animation-name: box;
+    position: relative;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    background-color: green;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes box2 {
+    0% {left: 0; top: 0;}
+    25% {left: 300px; top: 0;}
+    50% {left: 300px; top: 600px;}
+    75% {top: 600px; left: 0;}
+    100% {left: 0; top: 0;}
+}
+
+@keyframes box3 {
+    0% {left: 0; top: 0;}
+    25% {left: 300px; top: 0;}
+    50% {left: 300px; top: 600px;}
+    75% {top: 600px; left: 0;}
+    100% {left: 0; top: 0;}
+}
+
+@keyframes box4 {
+    0% {left: 0; top: 0;}
+    25% {left: 300px; top: 0;}
+    50% {left: 300px; top: 600px;}
+    75% {top: 600px; left: 0;}
+    100% {left: 0; top: 0;}
+}
